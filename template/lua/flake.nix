@@ -32,7 +32,7 @@
         buildInputs = with pkgs; [
           lua-language-server
           stylua
-          luacheck
+          luajitPackages.luacheck
         ];
       };
       };
