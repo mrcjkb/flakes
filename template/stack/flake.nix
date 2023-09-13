@@ -1,5 +1,5 @@
 {
-  description = "devShell for Haskell Cabal projects";
+  description = "devShell for Haskell Stack projects";
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
