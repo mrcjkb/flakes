@@ -16,6 +16,12 @@
           A devShell template for Haskell Stack projects.
         '';
       };
+      lua = {
+        path = ./template/lua;
+        description = ''
+          A devShell template for Lua projects.
+        '';
+      };
     };
   };
 
