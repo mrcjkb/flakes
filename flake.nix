@@ -10,6 +10,12 @@
           A devShell template for Haskell Cabal projects.
         '';
       };
+      stack = {
+        path = ./template/stack;
+        description = ''
+          A devShell template for Haskell Stack projects.
+        '';
+      };
     };
   };
 
