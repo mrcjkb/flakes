@@ -22,6 +22,12 @@
           A devShell template for Lua projects.
         '';
       };
+      rust = {
+        path = ./template/rust;
+        description = ''
+          A devShell template for Rust projects.
+        '';
+      };
     };
   };
 

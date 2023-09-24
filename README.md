@@ -27,3 +27,9 @@ nix flake init -t github:mrcjkb/nix-shells#stack
 ```console
 nix flake init -t github:mrcjkb/nix-shells#lua
 ```
+
+### Rust project
+
+```console
+nix flake init -t github:mrcjkb/nix-shells#rust
+```
