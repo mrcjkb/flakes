@@ -28,6 +28,12 @@
           A devShell template for Rust projects.
         '';
       };
+      java = {
+        path = ./template/java;
+        description = ''
+          A devShell template for Java projects.
+        '';
+      };
     };
   };
 
