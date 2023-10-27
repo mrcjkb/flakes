@@ -34,6 +34,12 @@
           A devShell template for Java projects.
         '';
       };
+      python = {
+        path = ./template/python;
+        description = ''
+          A devShell template for Python projects.
+        '';
+      };
     };
   };
 

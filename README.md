@@ -39,3 +39,9 @@ nix flake init -t github:mrcjkb/nix-shells#rust
 ```console
 nix flake init -t github:mrcjkb/nix-shells#java
 ```
+
+### Python
+
+```console
+nix flake init -t github:mrcjkb/nix-shells#python
+```
