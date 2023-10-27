@@ -34,6 +34,7 @@
           buildInputs =
             (with pkgs; [
               zlib
+              haskellPackages.fast-tags
               haskell-language-server
               haskellPackages.implicit-hie
               cabal-install
