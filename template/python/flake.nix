@@ -32,7 +32,6 @@
           pynvim
           python-lsp-server
           flake8
-          git
           thrift
           paho-mqtt
           protobuf
