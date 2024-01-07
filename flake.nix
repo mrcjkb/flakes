@@ -4,6 +4,12 @@
   outputs = { ... }: {
     templates = rec {
       default = cabal;
+      nix = {
+        path = ./template/nix;
+        description = ''
+          A basic Nix devShell.
+        '';
+      };
       cabal = {
         path = ./template/cabal;
         description = ''

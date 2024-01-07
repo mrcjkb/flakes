@@ -45,3 +45,9 @@ nix flake init -t github:mrcjkb/nix-shells#java
 ```console
 nix flake init -t github:mrcjkb/nix-shells#python
 ```
+
+### Basic Nix devShell
+
+```console
+nix flake init -t github:mrcjkb/nix-shells#nix
+```
