@@ -29,7 +29,7 @@
         pkgs = nixpkgs.legacyPackages.${system};
       in {
         devShells.default = pkgs.mkShell {
-          name = "nix devShell";
+          name = "LaTeX devShell";
           buildInputs = with pkgs;
           with pkgs; [
             # scheme-full, scheme-small, ...
