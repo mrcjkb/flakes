@@ -51,3 +51,10 @@ nix flake init -t github:mrcjkb/nix-shells#python
 ```console
 nix flake init -t github:mrcjkb/nix-shells#nix
 ```
+
+### LaTeX
+
+```console
+nix flake init -t github:mrcjkb/nix-shells#tex
+```
+

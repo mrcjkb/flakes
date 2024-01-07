@@ -46,6 +46,12 @@
           A devShell template for Python projects.
         '';
       };
+      tex = {
+        path = ./template/tex;
+        description = ''
+          A devShell template for LaTeX projects.
+        '';
+      };
     };
   };
 
