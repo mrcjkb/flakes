@@ -34,6 +34,12 @@ nix flake init -t github:mrcjkb/nix-shells#lua
 nix flake init -t github:mrcjkb/nix-shells#rust
 ```
 
+### Zig
+
+```console
+nix flake init -t github:mrcjkb/nix-shells#zig
+```
+
 ### Java
 
 ```console

@@ -34,6 +34,12 @@
           A devShell template for Rust projects.
         '';
       };
+      zig = {
+        path = ./template/zig;
+        description = ''
+          A devShell template for Zig projects.
+        '';
+      };
       java = {
         path = ./template/java;
         description = ''
