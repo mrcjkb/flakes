@@ -6,13 +6,13 @@ My collection of nix flake templates.
 
 ### Haskell (Cabal)
 
-```console
+```sh
 nix flake init -t github:mrcjkb/flakes#cabal
 ```
 
 ### Haskell (Stack)
 
-```console
+```sh
 nix flake init -t github:mrcjkb/flakes#stack
 ```
 
@@ -24,43 +24,43 @@ nix flake init -t github:mrcjkb/flakes#stack
 
 ### Lua
 
-```console
+```sh
 nix flake init -t github:mrcjkb/flakes#lua
 ```
 
 ### Rust
 
-```console
+```sh
 nix flake init -t github:mrcjkb/flakes#rust
 ```
 
 ### Zig
 
-```console
+```sh
 nix flake init -t github:mrcjkb/flakes#zig
 ```
 
 ### Java
 
-```console
+```sh
 nix flake init -t github:mrcjkb/flakes#java
 ```
 
 ### Python
 
-```console
+```sh
 nix flake init -t github:mrcjkb/flakes#python
 ```
 
 ### Basic Nix devShell
 
-```console
+```sh
 nix flake init -t github:mrcjkb/flakes#nix
 ```
 
 ### LaTeX
 
-```console
+```sh
 nix flake init -t github:mrcjkb/flakes#tex
 ```
 
@@ -68,6 +68,6 @@ nix flake init -t github:mrcjkb/flakes#tex
 
 ### `nixosTest`
 
-```console
+```sh
 nix flake init -t github:mrcjkb/flakes#nixosTest
 ```
