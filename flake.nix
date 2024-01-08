@@ -59,7 +59,7 @@
         '';
       };
       nixosTest = {
-        path = ./template/nixos-test;
+        path = ./template/nixosTest;
         description = ''
           A nixosTest template.
         '';
