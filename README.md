@@ -1,6 +1,6 @@
 # flakes
 
-My collection of nix flake templates for various devShells
+My collection of nix flake templates.
 
 ## Shells
 
