@@ -1,19 +1,19 @@
-# nix-shells
+# flakes
 
 My collection of nix flake templates for various devShells
 
-## Templates
+## Shells
 
 ### Haskell (Cabal)
 
 ```console
-nix flake init -t github:mrcjkb/nix-shells#cabal
+nix flake init -t github:mrcjkb/flakes#cabal
 ```
 
 ### Haskell (Stack)
 
 ```console
-nix flake init -t github:mrcjkb/nix-shells#stack
+nix flake init -t github:mrcjkb/flakes#stack
 ```
 
 > **Note**
@@ -25,42 +25,49 @@ nix flake init -t github:mrcjkb/nix-shells#stack
 ### Lua
 
 ```console
-nix flake init -t github:mrcjkb/nix-shells#lua
+nix flake init -t github:mrcjkb/flakes#lua
 ```
 
 ### Rust
 
 ```console
-nix flake init -t github:mrcjkb/nix-shells#rust
+nix flake init -t github:mrcjkb/flakes#rust
 ```
 
 ### Zig
 
 ```console
-nix flake init -t github:mrcjkb/nix-shells#zig
+nix flake init -t github:mrcjkb/flakes#zig
 ```
 
 ### Java
 
 ```console
-nix flake init -t github:mrcjkb/nix-shells#java
+nix flake init -t github:mrcjkb/flakes#java
 ```
 
 ### Python
 
 ```console
-nix flake init -t github:mrcjkb/nix-shells#python
+nix flake init -t github:mrcjkb/flakes#python
 ```
 
 ### Basic Nix devShell
 
 ```console
-nix flake init -t github:mrcjkb/nix-shells#nix
+nix flake init -t github:mrcjkb/flakes#nix
 ```
 
 ### LaTeX
 
 ```console
-nix flake init -t github:mrcjkb/nix-shells#tex
+nix flake init -t github:mrcjkb/flakes#tex
 ```
 
+## Other
+
+### `nixosTest`
+
+```console
+nix flake init -t github:mrcjkb/flakes#nixosTest
+```

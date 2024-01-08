@@ -58,6 +58,12 @@
           A devShell template for LaTeX projects.
         '';
       };
+      nixosTest = {
+        path = ./template/nixos-test;
+        description = ''
+          A nixosTest template.
+        '';
+      };
     };
   };
 
