@@ -66,6 +66,14 @@ nix flake init "github:mrcjkb/flakes#tex"
 
 ## Other
 
+### Basic nix flake
+
+With only `nixpkgs` as an input.
+
+```sh
+nix flake init "github:mrcjkb/flakes#basic"
+```
+
 ### `nixosTest`
 
 ```sh

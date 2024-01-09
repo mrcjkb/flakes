@@ -58,6 +58,12 @@
           A devShell template for LaTeX projects.
         '';
       };
+      basic = {
+        path = ./template/basic;
+        description = ''
+          A basic nix flake.
+        '';
+      };
       nixosTest = {
         path = ./template/nixosTest;
         description = ''
