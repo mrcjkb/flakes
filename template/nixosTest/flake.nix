@@ -32,8 +32,7 @@
       in {
         devShells.default = pkgs.mkShell {
           name = "nix devShell";
-          buildInputs = with pkgs;
-          with pkgs; [
+          buildInputs = with pkgs; [
             nil
             alejandra
           ];
