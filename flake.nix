@@ -70,6 +70,12 @@
           A nixosTest template.
         '';
       };
+      nix-unit = {
+        path = ./template/nix-unit;
+        description = ''
+          A nix-unit template.
+        '';
+      };
     };
   };
 

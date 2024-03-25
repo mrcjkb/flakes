@@ -79,3 +79,9 @@ nix flake init "github:mrcjkb/flakes#basic"
 ```sh
 nix flake init "github:mrcjkb/flakes#nixosTest"
 ```
+
+### `nix-unit`
+
+```sh
+nix flake init "github:mrcjkb/flakes#nix-unit"
+```
