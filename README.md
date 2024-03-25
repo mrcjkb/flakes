@@ -7,13 +7,13 @@ My collection of nix flake templates.
 ### Haskell (Cabal)
 
 ```sh
-nix flake init "github:mrcjkb/flakes#cabal"
+nix flake init -t "github:mrcjkb/flakes#cabal"
 ```
 
 ### Haskell (Stack)
 
 ```sh
-nix flake init "github:mrcjkb/flakes#stack"
+nix flake init -t "github:mrcjkb/flakes#stack"
 ```
 
 > **Note**
@@ -25,43 +25,43 @@ nix flake init "github:mrcjkb/flakes#stack"
 ### Lua
 
 ```sh
-nix flake init "github:mrcjkb/flakes#lua"
+nix flake init -t "github:mrcjkb/flakes#lua"
 ```
 
 ### Rust
 
 ```sh
-nix flake init "github:mrcjkb/flakes#rust"
+nix flake init -t "github:mrcjkb/flakes#rust"
 ```
 
 ### Zig
 
 ```sh
-nix flake init "github:mrcjkb/flakes#zig"
+nix flake init -t "github:mrcjkb/flakes#zig"
 ```
 
 ### Java
 
 ```sh
-nix flake init "github:mrcjkb/flakes#java"
+nix flake init -t "github:mrcjkb/flakes#java"
 ```
 
 ### Python
 
 ```sh
-nix flake init "github:mrcjkb/flakes#python"
+nix flake init -t "github:mrcjkb/flakes#python"
 ```
 
 ### Basic Nix devShell
 
 ```sh
-nix flake init "github:mrcjkb/flakes#nix"
+nix flake init -t "github:mrcjkb/flakes#nix"
 ```
 
 ### LaTeX
 
 ```sh
-nix flake init "github:mrcjkb/flakes#tex"
+nix flake init -t "github:mrcjkb/flakes#tex"
 ```
 
 ## Other
@@ -71,17 +71,17 @@ nix flake init "github:mrcjkb/flakes#tex"
 With only `nixpkgs` as an input.
 
 ```sh
-nix flake init "github:mrcjkb/flakes#basic"
+nix flake init -t "github:mrcjkb/flakes#basic"
 ```
 
 ### `nixosTest`
 
 ```sh
-nix flake init "github:mrcjkb/flakes#nixosTest"
+nix flake init -t "github:mrcjkb/flakes#nixosTest"
 ```
 
 ### `nix-unit`
 
 ```sh
-nix flake init "github:mrcjkb/flakes#nix-unit"
+nix flake init -t "github:mrcjkb/flakes#nix-unit"
 ```
