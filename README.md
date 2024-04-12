@@ -22,10 +22,16 @@ nix flake init -t "github:mrcjkb/flakes#stack"
 > for the `ghc` version, the resolver in `stack.yaml` needs to
 > be changed.
 
-### Lua
+### Lua (basic)
 
 ```sh
 nix flake init -t "github:mrcjkb/flakes#lua"
+```
+
+### Lua (neovim)
+
+```sh
+nix flake init "github:mrcjkb/flakes#nvim"
 ```
 
 ### Rust

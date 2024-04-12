@@ -28,6 +28,12 @@
           A devShell template for Lua projects.
         '';
       };
+      nvim = {
+        path = ./template/nvim;
+        description = ''
+          A devShell template for Neovim Lua plugins.
+        '';
+      };
       rust = {
         path = ./template/rust;
         description = ''
