@@ -34,6 +34,12 @@
           A devShell template for Neovim Lua plugins.
         '';
       };
+      rocks-nvim = {
+        path = ./template/rocks-nvim;
+        description = ''
+          A devShell template for debuggind rocks.nvim installs.
+        '';
+      };
       rust = {
         path = ./template/rust;
         description = ''
