@@ -1,7 +1,7 @@
 {
   description = "flake template for various devShells";
 
-  outputs = { ... }: {
+  outputs = {...}: {
     templates = rec {
       default = cabal;
       nix = {
@@ -90,5 +90,4 @@
       };
     };
   };
-
 }

@@ -11,7 +11,8 @@
     nixpkgs,
     flake-parts,
     ...
-  }: flake-parts.lib.mkFlake {inherit inputs;} {
+  }:
+    flake-parts.lib.mkFlake {inherit inputs;} {
       systems = [
         "x86_64-linux"
         "x86_64-darwin"
@@ -28,15 +29,15 @@
         pkgs = nixpkgs.legacyPackages.${system};
       in {
         devShells.default = pkgs.mkShell {
-        name = "lua devShell";
-        buildInputs = with pkgs; [
-          lua-language-server
-          stylua
-          lua51Packages.luacheck
-          lua5_1
-          luarocks
-        ];
-      };
+          name = "lua devShell";
+          buildInputs = with pkgs; [
+            lua-language-server
+            stylua
+            lua51Packages.luacheck
+            lua5_1
+            luarocks
+          ];
+        };
       };
     };
 }

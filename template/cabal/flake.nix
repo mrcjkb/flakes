@@ -11,7 +11,8 @@
     nixpkgs,
     flake-parts,
     ...
-  }: flake-parts.lib.mkFlake {inherit inputs;} {
+  }:
+    flake-parts.lib.mkFlake {inherit inputs;} {
       systems = [
         "x86_64-linux"
         "x86_64-darwin"
@@ -31,14 +32,13 @@
           name = "Cabal devShell";
           packages = p: [];
           withHoogle = true;
-          buildInputs =
-            (with pkgs; [
-              zlib
-              haskellPackages.fast-tags
-              haskell-language-server
-              haskellPackages.implicit-hie
-              cabal-install
-            ]);
+          buildInputs = with pkgs; [
+            zlib
+            haskellPackages.fast-tags
+            haskell-language-server
+            haskellPackages.implicit-hie
+            cabal-install
+          ];
         };
       };
     };

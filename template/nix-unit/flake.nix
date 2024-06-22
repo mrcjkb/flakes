@@ -1,10 +1,11 @@
 {
   description = "A very basic nix-unit example";
 
-  outputs = { self, nixpkgs }: let
-
-  add = x: y: x + y;
-
+  outputs = {
+    self,
+    nixpkgs,
+  }: let
+    add = x: y: x + y;
   in {
     # Run this with: nix-unit --flake '.addTest'
     addTest = {
@@ -19,4 +20,3 @@
     };
   };
 }
-

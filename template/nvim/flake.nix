@@ -15,7 +15,8 @@
     neorocks,
     gen-luarc,
     ...
-  }: flake-parts.lib.mkFlake {inherit inputs;} {
+  }:
+    flake-parts.lib.mkFlake {inherit inputs;} {
       systems = [
         "x86_64-linux"
         "x86_64-darwin"
@@ -38,22 +39,23 @@
         };
         luarc = pkgs.mk-luarc {
           nvim = pkgs.neovim-nightly;
-          neodev-types = "nightly";
         };
       in {
         devShells.default = pkgs.mkShell {
-        name = "lua devShell";
-        shellHook = ''
-          ln -fs ${pkgs.luarc-to-json luarc} .luarc.json
-        '';
-        buildInputs = with pkgs; [
-          lua-language-server
-          stylua
-          lua51Packages.luacheck
-          lua5_1
-          luarocks
-        ];
-      };
+          name = "lua devShell";
+          shellHook = ''
+            ln -fs ${pkgs.luarc-to-json luarc} .luarc.json
+          '';
+          buildInputs = with pkgs; [
+            lua-language-server
+            stylua
+            (lua5_1.withPackages (luaPkgs:
+              with luaPkgs; [
+                luarocks
+                luacheck
+              ]))
+          ];
+        };
       };
     };
 }
