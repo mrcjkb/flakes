@@ -12,27 +12,18 @@
     self,
     nixpkgs,
     flake-parts,
-    neorocks,
-    gen-luarc,
     ...
   }:
     flake-parts.lib.mkFlake {inherit inputs;} {
-      systems = [
-        "x86_64-linux"
-        "x86_64-darwin"
-        "aarch64-darwin"
-      ];
+      systems = builtins.attrNames nixpkgs.legacyPackages;
       perSystem = {
         config,
-        self',
-        inputs',
-        pkgs,
         system,
         ...
       }: let
         pkgs = import nixpkgs {
           inherit system;
-          overlays = [
+          overlays = with inputs; [
             neorocks.overlays.default
             gen-luarc.overlays.default
           ];
