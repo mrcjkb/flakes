@@ -96,6 +96,12 @@
               A devShell template for LaTeX projects.
             '';
           };
+          typst = {
+            path = ./template/typst;
+            description = ''
+              A devShell template for Typst projects.
+            '';
+          };
           basic = {
             path = ./template/basic;
             description = ''

@@ -70,6 +70,12 @@ nix flake init -t "github:mrcjkb/flakes#nix"
 nix flake init -t "github:mrcjkb/flakes#tex"
 ```
 
+### Typst
+
+```sh
+nix flake init -t "github:mrcjkb/flakes#typst"
+```
+
 ## Other
 
 ### Basic nix flake
