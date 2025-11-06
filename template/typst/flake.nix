@@ -29,7 +29,7 @@
           buildInputs = with pkgs; [
             zlib
             typst
-            typstfmt
+            typstyle
           ];
         };
       };
