@@ -37,6 +37,7 @@
       system: let
         pkgs = inputs.nixpkgs.legacyPackages.${system};
       in {
+        legacyPackages.${system} = pkgs;
         checks.${system} = {
         };
         devShells.${system}.default = pkgs.mkShell {
