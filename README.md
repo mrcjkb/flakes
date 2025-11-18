@@ -2,6 +2,14 @@
 
 My collection of nix flake templates.
 
+## Basic nix flake
+
+With only `nixpkgs` as an input and boilerplate for iterating over systems.
+
+```sh
+nix flake init -t "github:mrcjkb/flakes#basic"
+```
+
 ## Shells
 
 ### Haskell (Cabal)
@@ -77,14 +85,6 @@ nix flake init -t "github:mrcjkb/flakes#typst"
 ```
 
 ## Other
-
-### Basic nix flake
-
-With only `nixpkgs` as an input.
-
-```sh
-nix flake init -t "github:mrcjkb/flakes#basic"
-```
 
 ### `nixosTest`
 
