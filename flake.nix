@@ -42,6 +42,12 @@
               A devShell template for Haskell Cabal projects.
             '';
           };
+          cabal2nix = {
+            path = ./template/cabal2nix;
+            description = ''
+              A template for Haskell projects built with cabal2nix.
+            '';
+          };
           stack = {
             path = ./template/stack;
             description = ''

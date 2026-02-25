@@ -14,8 +14,18 @@ nix flake init -t "github:mrcjkb/flakes#basic"
 
 ### Haskell (Cabal)
 
+devShell only
+
 ```sh
 nix flake init -t "github:mrcjkb/flakes#cabal"
+```
+
+### Haskell (cabal2nix)
+
+cabal2nix project boilerplate
+
+```sh
+nix flake init -t "github:mrcjkb/flakes#cabal2nix"
 ```
 
 ### Haskell (Stack)
